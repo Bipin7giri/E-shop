@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="themify-icons/themify-icons.css" />
+  <title>E-shop</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+  <section id="header">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" class="image-fluid" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="ti-align-justify navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#special">Special</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonials</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!-- home-section -->
+  <section id="home" class="home pt-5 overflow-hidden">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="home-banner home-banner-1">
+            <div class="home-banner-text">
+              <h1>Women</h1>
+              <h2>52% Discount for this season</h2>
+              <a href="#" class="btn our-products text-uppercasr mt-4">
+                Our Products</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="home-banner home-banner-2">
+            <div class="home-banner-text">
+              <h1>E-Shop</h1>
+              <h2>With Working card and paypal</h2>
+              <a href="#" class="btn our-products text-uppercasr mt-4">
+                Our Products</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+        <span class="ti-angle-left slider-icons"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+        <span class="ti-angle-right slider-icons"></span>
+      </button>
+    </div>
+
+    <div class="offers">
+      <div class="container">
+        <div class="row">
+          <!-- offer box one -->
+          <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+            <a href="">
+              <div class="offer-box text-center position-relative">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overflow-hidden">
+                    <img src="images/offer1.jpg" alt="offers" class="img-fluid" />
+                    <div class="offer-overlay"></div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text capatalize">Sale 30%</p>
+                        <p class="offer-title-1 text-uppercas font-weight-bold">
+                          Dont`Miss the chance
+                        </p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">
+                          Shop now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- OFFER BOX TWO -->
+          <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4 py-5">
+            <a href="">
+              <div class="offer-box text-center position-relative">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overflow-hidden">
+                    <img src="images/p1.jpg" alt="offers" class="img-fluid" />
+                    <div class="offer-overlay"></div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text capatalize">Sale 30%</p>
+                        <p class="offer-title-1 text-uppercas font-weight-bold">
+                          Dont`Miss the chance
+                        </p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">
+                          Shop now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- OFFER-BOX-THREE -->
+          <div class="col-sm-6 col-lg-4 mb-lg-0 mb-4">
+            <a href="">
+              <div class="offer-box text-center position-relative">
+                <div class="offer-inner">
+                  <div class="offer-image position-relative overflow-hidden">
+                    <img src="images/offer4.jpg" alt="offers" class="img-fluid" />
+                    <div class="offer-overlay"></div>
+                    <div class="offer-info">
+                      <div class="offer-info-inner">
+                        <p class="heading-bigger text capatalize">Sale 25%</p>
+                        <p class="offer-title-1 text-uppercas font-weight-bold">
+                          Dont`Miss the chance
+                        </p>
+                        <button type="button" class="btn btn-outline-danger text-uppercase mt-4">
+                          Shop now
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- PRODCUTS -sections -->
+  <section id="products" class="products py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="headline text-center mb-5">
+            <h2 class="FP">FEATURED PRODUCTS</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <span class="sale"> Sale </span>
+                <img src="images/p1.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p3.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$400.00<del>$580.00</del></p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <img src="images/p8.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p1.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$580.00</p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <span class="sale"> Sale </span>
+                <img src="images/p9.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p6.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$400.00<del>$580.00</del></p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <img src="images/p2.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p8.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$580.00</p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <img src="images/p9.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p10.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$400.00</p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-lg-4">
+          <a href="" class="d-block text-center mb-4">
+            <div class="product-list">
+              <div class="product-image postion-relative">
+                <span class="sale"> Sale </span>
+                <img src="images/p3.jpg" alt="prodcuts" class="img-fluid product-image-first" />
+                <img src="images/p5.jpg" alt="prodcuts" class="img-fluid product-image-secondary" />
+              </div>
+              <div class="product-name pt-3">
+                <h3 class="text-capitalize">
+                  Winter Long Sleeve Black White
+                </h3>
+                <p class="mb-0 amount">$400.00<del>$580.00</del></p>
+                <div class="py-1">
+                  <span class="ti-star active"></span>
+                  <span class="ti-star active"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                  <span class="ti-star"></span>
+                </div>
+                <button type="button" class="add_to_card">ADD TO CARD</button>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <!-- UP to 75% off -->
+      <div class="row container my-5 mx-2">
+        <div class="col-lg-12">
+      
+       <div class="banner_img">
+
+         <img src="./images/lg.jpg" alt="img-banner" class="img-fluid" >
+
+         <h3>UP to 75% off SPRING SALE!</h3>
+
+       </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <section class="special" id="special">
+    <div class="container">
+      <div class="row gx-5">
+        <div class="col-sm-12">
+          <div class="headline text-center">
+            <div class="py-5 my-5 position-relative d-inline-block">
+              <h2>SUMMER SALE</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="row special-content gx-5">
+  <div class="col-lg-7">
+    
+      <h3>
+        Sexy women floral embroidery
+      </h3>
+      <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat distinctio eaque nostrum minus velit quod accusantium? Numquam in obcaecati debitis! Unde, labore laboriosam ad molestias nesciunt eligendi. Facilis, laborum omnis.</p>
+      
+  <ul class="countdown-counter list-unstyled  text-dark">
+    <li><span class="fs-1 d-block" id="days">00</span>Days</li>
+    <li><span class="fs-1 d-block" id="hours">00</span>Hrs</li>
+    <li><span class="fs-1 d-block" id="min">00</span>Min</li>
+    <li><span class="fs-1 d-block" id="sec">00</span>Sec</li>
+  </ul>
+  <span class="countdown-price h3 d-block mb-4">$420.00<del>$670.00</del></span>
+  <button type="button" class="btn btn-danger">Add TO CART</button>
+  </div>
+  <div class="col-lg-5 img-right">
+    <span>Sale</span>
+    <img src="images/p7.jpg" alt="" class="img-fluid">
+  </div>
+</div>
+    </div>
+  </section>
+  <!-- Testimonial section -->
+  <section id="testimonial" class="testimonial my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="headline text-center mb-5">
+            <h2>Testimonial</h2>
+          </div>
+        </div>
+        <div class="col-sm-12 col-lg-8 offset-lg-2 text-center">
+          <div id="carouselExampleIndicatorsTwo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicatorsTwo" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+               <div class="testimonial-wrapper">
+                 <div class="row">
+                   <div class="col-sm-12">
+                     <img src="images/user.png" alt="" class="img-fluid">
+                   </div>
+                   <div class="username">
+                     <h3>Martin Johe Co-Founder /CEO</h3>
+                     <span>FastCompany ltd.</span>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid alias quae maxime perspiciatis, ab molestias saepe obcaecati, soluta quaerat explicabo id. Quidem autem facilis ipsum voluptatem ut quos eaque libero.</p>
+
+                   </div>
+                 </div>
+               </div>
+              </div>
+              <div class="carousel-item">
+               <div class="testimonial-wrapper">
+                 <div class="row">
+                   <div class="col-sm-12">
+                     <img src="images/user2.png" alt="" class="img-fluid">
+                   </div>
+                   <div class="username">
+                     <h3>Martin Johe Co-Founder /CEO</h3>
+                     <span>FastCompany ltd.</span>
+                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid alias quae maxime perspiciatis, ab molestias saepe obcaecati, soluta quaerat explicabo id. Quidem autem facilis ipsum voluptatem ut quos eaque libero.</p>
+                     
+                   </div>
+                 </div>
+               </div> 
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicatorsTwo"
+              data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon" aria-hidden="true"></span> -->
+              <span class="ti-angle-left slider-icons"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicatorsTwo"
+              data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon" aria-hidden="true"></span> -->
+              <span class="ti-angle-right slider-icons"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="contact">
+      <div class="container">
+        <div class="mb-5 text-center">
+            <h5>Let’s Start a Conversation!</h5>
+            <h2 class="fw-bold">Contact Us</h2>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-5 col-md-5">
+              <h4 class="fw-bold">Contact Info</h4>
+              <ul class="info list-unstyled">
+                <li class="d-flex align-items-center"> 
+                    <span class="pe-3 ti-location-pin fs-5"></span>
+                    <p><a href="">Lorem ipsum dolor sit amet, consectetur.</a></p>
+                </li>
+                <li class="d-flex align-items-center">
+                    <span class="pe-3 ti-mobile fs-5"></span>
+                    <p><a href="">+91 999-999-9999</a></p>
+                </li>
+                <li class="d-flex align-items-center">
+                    <span class="pe-3 ti-envelope fs-5"></span>
+                    <p><a href="">Info@eshop.in</a></p>
+                </li> 
+              </ul>
+          </div>
+          <div class="col-lg-7 col-md-7 pt-lg-0 pt-md-0 pt-4">
+            <form>
+                <div class="row">
+                    <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Email address">
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                          <input class="textarea" name="message" cols="30" rows="4" id="message" placeholder="Enter your message">
+                      </div>
+                    </div>
+                    <div class="col-md-12"> 
+                      <button class="btn btn-danger"><span class="ti-rocket pe-2 fs-5"></span> Send Message</button>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- Footer section -->
+<footer>
+  <div class="p-3 copyright">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-start">
+            <p class="my-0">Copyright © 2021 <a href="#">E-SHOP</a> All Rights Reserved</p>
+        </div>
+        <div class="col-12 col-lg-6 p-1 p-lg-3 text-center text-lg-end">
+            <p>Designed by <a href="#" target=" _blank">Bipin_Giri</a>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+ 
+<!-- Scroll Backt To Top --> 
+<div id="scrollUp" title="Scroll To Top">
+<a href="#home"><span class="ti-arrow-up fs-4 text-white"></span></a>
+</div>
+
+  
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+<script src="./assets/main.js"></script>
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
